@@ -1,0 +1,38 @@
+.section-title {
+  color: $secondary-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  max-width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width:1200px) {
+    padding-top: 94px;
+  padding-bottom: 94px;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+}
+}

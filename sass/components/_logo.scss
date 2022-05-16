@@ -1,0 +1,46 @@
+.logo {
+  color: $accent-color;
+  font-family: "Raleway", "sana-serif";
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: $secondary-text-color;
+  }
+
+  @media screen and (min-width:767px) {
+    margin-right: 93px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+    }
+}
+
+
+
+
+.logo__span {
+  color: $secondary-text-color;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+  &:hover {
+  color: $accent-color;
+}
+}
+
+
+
