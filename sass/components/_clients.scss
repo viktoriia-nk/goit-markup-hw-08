@@ -8,35 +8,17 @@
 .clients__list {
    
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   
-
   @media screen and (min-width:768px){
-    
     grid-template-columns: repeat(3, 1fr);
-    
   }
   @media screen and (min-width:1200px) {
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
-// .clients__item {
-//   @media screen and (min-width:480px) {
-//     width: 210px;
-//   }
-//   @media screen and (min-width:768px) {
-//     width: 226px;
-//   }
-//   @media screen and (min-width:1200px) {
-//     display: flex;
-//     width: 170px;
-//     &:not(:last-child) {
-//       margin-right: 30px;
-//   }
-//   }
-// }
 
 .clients__icon {
   width: 106px;
