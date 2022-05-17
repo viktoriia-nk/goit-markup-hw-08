@@ -6,11 +6,10 @@
 }
 
 .clients__list {
-  @media screen and (max-width:767px) {
-    display: grid;
+  display: grid;
   grid-template-columns: 210px 210px;
   gap: 30px;
-  }
+
   @media screen and (min-width:768px) and (max-width:1199px){
     display: grid;
     grid-template-columns: 226px 226px 226px;
