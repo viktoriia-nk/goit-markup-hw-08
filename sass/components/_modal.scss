@@ -23,17 +23,7 @@
 
 
 .modal {
-  @media screen and (max-width:479px) {
-    width: 100%;
-  }
-  @media screen and (min-width:480px) {
-  width: 450px;
-  height: 609px;
-  }
-  @media screen and (min-width: 1200px) {
-  width: 528px;
-  height: 581px;
-  }
+  
   background-color: $white-color;
   position: absolute;
   top: 50%;
@@ -47,6 +37,20 @@
   flex-direction: column;
 
   padding: 40px;
+
+  @media screen and (max-width:479px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width:480px) {
+  width: 450px;
+  height: 609px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+  width: 528px;
+  height: 581px;
+  }
 }
 
 .modal__title {

@@ -4,6 +4,7 @@
     grid-template-columns: 354px 354px;
     gap: 30px;
   }
+
   @media screen and (min-width: 1200px) {
     display: flex;
   }
@@ -11,19 +12,6 @@
 
 
 .benefits__item {
-  @media screen and (max-width:767px) {
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
-  }
-
-@media screen and (min-width:1200px) {
-  width: calc((1200px - 90px) / 4);
-
-  &:not(:last-child) {
-      margin-right: 30px;
-  }
-}
   
   &::before {
   display: block;
@@ -33,6 +21,20 @@
   background-position: center;
   background-color: #F5F4FA;
   margin-bottom: 30px;
+}
+
+  @media screen and (max-width:767px) {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+  @media screen and (min-width:1200px) {
+   width: calc((1200px - 90px) / 4);
+
+    &:not(:last-child) {
+    margin-right: 30px;
+}
 }
 }
 

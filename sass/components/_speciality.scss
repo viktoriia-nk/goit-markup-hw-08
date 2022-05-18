@@ -1,8 +1,9 @@
 .speciality {
+  padding-top: 0;
+
   @media screen and (max-width:1199px) {
     display: none;
   }
-  padding-top: 0;
 }
 
 .speciality__title {
@@ -17,6 +18,7 @@
 
 .speciality__item {
   position: relative;
+  width: 370px;
 
   &:not(:last-child) {
       margin-right: 30px;
