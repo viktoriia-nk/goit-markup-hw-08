@@ -702,11 +702,13 @@ img {
 
 .team__title {
   margin-bottom: 30px;
+  font-size: 28px;
 }
 
 @media screen and (min-width: 1200px) {
   .team__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -771,11 +773,13 @@ img {
 
 .clients__title {
   margin-bottom: 30px;
+  font-size: 28px;
 }
 
 @media screen and (min-width: 1200px) {
   .clients__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
